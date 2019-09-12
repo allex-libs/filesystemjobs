@@ -1,0 +1,30 @@
+{
+  "name": "allex_filesystemjobslib",
+  "version": "1.0.0",
+  "description": "AllexJS library of File System Jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "allex-mocha"
+  },
+  "dependencies": {
+    "allex_fsutilsserverruntimelib": "1.x",
+    "allex_nodehelpersserverruntimelib": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex-libs/filesystemjobs.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "file",
+    "system",
+    "jobs",
+    "library"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-libs/filesystemjobs/issues"
+  },
+  "homepage": "https://github.com/allex-libs/filesystemjobs#readme"
+}
