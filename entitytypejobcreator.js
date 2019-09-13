@@ -20,7 +20,7 @@ function createEntityTypeJob (execlib, FsPathJobBase, fsutils) {
         this.resolve(typestring);
         return;
       }
-      throw new lib.Error('FSUTILS_FILETYPE_INCOSISTENCY', 'fsutils.fileType has to return a string that can only be 1 in length');
+      throw new lib.Error('FSUTILS_FILETYPE_INCONSISTENCY', 'fsutils.fileType has to return a string that can only be 1 in length');
     }
     this.resolve('');
   };
